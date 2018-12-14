@@ -1,0 +1,7 @@
+@ font-face{
+	font-family:"cardo-bold"
+	src:url("cardo-bold.woff");
+}
+p{
+	font-family: "cardo-bold"
+}

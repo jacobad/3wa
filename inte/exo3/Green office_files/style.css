@@ -1,0 +1,21 @@
+div{
+	display:inline-block;
+	background-color:;
+	background-position:top;
+	border-width:10px;
+	padding:
+}
+h1{
+	color:green;
+}
+a{
+	color:green;
+	float: right;
+}
+img{
+	float:left;
+}
+body{
+	background: url("fond.png");
+	text-align:center;
+}

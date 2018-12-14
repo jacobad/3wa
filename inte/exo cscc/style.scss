@@ -1,0 +1,23 @@
+$color1:red;
+$color2:green;
+$color2:yellow;
+
+
+h1{
+	color:$color1;
+}
+p{
+	color:$color2;
+}
+h2{
+	color:$color3;
+}
+h3{
+	color:$color2;
+}
+
+
+@for$i from 2 through 12{
+	.grid-#{$i}
+	display:flex;
+}

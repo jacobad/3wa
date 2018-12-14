@@ -1,0 +1,15 @@
+.bar{
+	width:500px;
+	height:50px;
+	border:1px solid black;
+}
+
+.fill{
+  height:50px;
+  background-color:red;
+}
+
+p
+{
+  margin:0;
+}

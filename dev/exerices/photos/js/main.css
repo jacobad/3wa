@@ -1,0 +1,23 @@
+body{
+	width:800px;
+}
+ul{
+	list-style: none;
+	display:flex;
+	flex-wrap: wrap;
+}
+li{
+
+	margin:1em;
+	padding:0.5em;
+	border-size:2em;	
+}
+
+li:hover {
+  background-color:silver;
+  border-radius:10px;
+}
+
+li.selected {
+	background-color: forestgreen;
+}

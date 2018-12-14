@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background-image:url(fond.jpg);
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-left: auto;
+}	
+header,h1, nav{
+	text-align:center;
+	color:white;
+}
+.fond{
+	padding-bottom:10%;
+}
+.petit{
+	font-size:0.5em;
+	color:white;
+}
+/*fin du header*/
+main{
+	margin:0 auto 0 auto;
+}
+aside{
+	background:white;	
+}
+aside img{
+	float:left;
+	width:30%;
+	padding-bottom:2%;
+}
+.image img{
+   float:right;	
+}
+.clear{
+	clear:both;
+}
+
+/*fin de aside*/
+
+section{
+	
+	background-repeat:no-repeat;
+    background-image:url(background_section.jpg);
+    color:white;
+    text-align: center;
+    background-size: 100%;
+}
+section article{
+	display:inline-block;
+	width:33%;
+	vertical-align: text-top;
+	
+}
+section img{
+	width: 40%;
+}
+/*fin de section*/
+
+footer{
+	background-image:url(background_section.jpg);
+	padding-bottom:10%;
+	max-width:100%;
+	padding-top: 5%;
+	text-align: center;
+	background-size:100%;
+    background-repeat: no-repeat;
+
+}
+footer img{
+	width:2%;
+}
+/*fin du footer*/
+
+nav,h1{
+	font-family:'Kaushan Script', cursive;
+	font-size: 2em;
+}
+p,h2,h3,nav{
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+}
+nav a {
+	font-size:1em;
+	color:white;
+	display:inline-block;
+}
+.fas{
+	display:inline-block;
+}
+.far{
+	display:inline-block;
+}
+
+h2{
+	text-align: center;
+}
+/*fin de la taille de police*/

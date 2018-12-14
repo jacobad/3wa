@@ -1,0 +1,49 @@
+div{
+	background-color:rgb(183,202,60);
+	display:block;
+}
+h1{
+	color:green;
+	font-size:1.3em;
+}
+a{
+	line-height:140px;
+	margin-right:8px;
+	text-align: right;
+	font-size:1.3em;
+	color:#6c7a21;
+}
+img{
+	float:left;
+	width:25%;
+	height: 25%;
+}
+body{
+	background: url("fond.png");
+	margin: 0 auto;
+	max-width:800px;
+
+}
+.coleur{
+	color:rgb(183,202,60);
+}
+#licence {
+    display: block;
+    text-align:center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+.read{
+	background-color:rgb(183,202,60);
+
+}
+main{
+	background:white;
+	padding:1em;
+}
+p{
+	text-align:right;
+}

@@ -1,0 +1,54 @@
+              /*header*/
+*{
+	box-sizing: border-box;
+}
+nav{
+	display:inline;
+	width:40%;
+}
+header nav a{
+	color:black;
+	text-decoration:none;
+}
+
+
+      /*Main*/
+
+main{
+	background-image: url(background.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	padding:10%;
+	color:white;
+
+}
+
+div{
+	background-color:#FB8B9B;
+	padding:1%;
+	width:100%;
+	color:white;
+}
+.test1{
+	display: flex;
+	display: inline-block;
+
+}
+
+   /*footer*/
+footer{
+	text-align: center;
+	background-color: #213E4E;
+}
+footer nav{
+	display:inline;
+	width:40%;
+}
+
+footer small{
+	text-align: center;
+}
+footer small img{
+	width:7%;
+	text-align: center;
+}

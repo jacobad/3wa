@@ -1,0 +1,102 @@
+ul{
+	margin:2em;
+	padding:0;
+	list-style-type:none;
+	border:1px solid black;
+}
+
+li{
+	padding:1em;
+}
+
+ul :nth-child(2){
+	background-color:red;
+}
+ul :nth-child(3){
+	background-color:blue;
+}
+ul :nth-child(4){
+	background-color:black;
+}
+ul :nth-child(5){
+	background-color:green;
+}
+ul :nth-child(6){
+	background-color:yellow;
+}
+
+.test1{
+	display:flex;
+}
+.test2{
+	display:flex;
+	flex-direction: row-reverse;
+}
+.test3{
+	display:flex;
+	flex-direction: column;
+}
+.test4{
+	display:flex;
+	flex-direction: column-reverse;
+}
+.test5{
+	display:flex;
+	width: 200px;
+	flex-wrap: nowrap;
+
+}
+.test6{
+	display:flex;
+	width: 200px;
+	flex-wrap: wrap;
+}
+.test7 li:nth-child(odd){
+	line-height: 4em;	
+}
+.test8 li:nth-child(odd){
+	line-height:4em;
+}
+
+.test9 li:nth-child(odd){
+	line-height: 4em;
+}
+
+.test10{
+	display:flex;
+	justify-content:center;
+}
+.test11{
+	display:flex;
+	justify-content: flex-start;
+}
+.test12{
+	display: flex;
+	justify-content: flex-end;
+}
+.test13{
+	display:flex;
+	justify-content: space-between;
+}
+.test14{
+	display:flex;
+	justify-content: space-around;
+}
+.test15 li:nth-child(1){
+   order:1
+}
+ .test15 li:nth-child(2){
+   order:2
+}
+ .test15 li:nth-child(3){
+   order:3
+}
+ .test15 li:nth-child(4){
+   order:6
+}
+ .test15 li:nth-child(5){
+   order:1
+}
+ .test15 li:nth-child(6){
+   order:4
+}

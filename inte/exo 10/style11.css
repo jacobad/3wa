@@ -1,0 +1,49 @@
+              /*header*/
+*{
+	box-sizing: border-box;
+}
+
+header nav a{
+	color:black;
+	text-decoration:none;	
+}
+header nav{ 
+	display:flex;
+	justify-content:space-between;
+}
+header nav a{
+	padding-top:10%;
+}
+h1{
+	font-size: 2em;
+}
+                /*Main et titre*/
+
+h1,h2,h3{
+	text-align: center;
+	font-family: 'Candal', sans-serif;
+}
+h3,h4{
+	color:#FB8B9B;
+}
+
+
+           /*footer*/
+footer{
+	text-align: center;
+	background-color: #213E4E;
+}
+footer nav a{
+	display:inline-block;
+	width:16%;
+	color: white;
+	text-decoration:none;
+}
+
+footer small{
+	text-align: center;
+}
+footer small img{
+	width:2%;
+	text-align: center;
+}
