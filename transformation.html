@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<title>carre</title>
+	<style>
+	
+.carre{
+	width:300px;
+	height:300px;
+	background:yellow;
+	line-height: 300px;
+	margin:10em auto;
+	text-align:center;
+}
+	
+	                     /*transformation*/
+	
+	/*transform:rotate(45deg) 
+	translateX(10em)   
+	translateY(5em)
+	scale:(0.5)
+	skewX:(15deg)*/
+
+
+	
+                    	 /*transition*/
+
+/*.carre{
+	transition:all 2s ease-in 2s;
+	transition:background-color 1s;
+	transition:transform(0.5s);
+}
+
+.carre:hover{
+	background-color:red;
+	transform:rotate(60deg);
+}*/
+
+                /*animation*/
+
+@keyframes silde{
+	0%{
+		transform: translateX(-20em);
+		background-color:red;
+	}
+	50%{
+		transform:translateX(10em);
+		background-color:blue;
+	}
+    100%{
+    	transform:translateX(-30em);
+    }
+}
+.carre{
+	animation: silde 2s;
+}
+		
+	</style>
+</head>
+<body>
+<div class="carre">shake ton carre</div>
+
+</body>
+</html>
