@@ -1,0 +1,64 @@
+             /*header*/
+*{
+	box-sizing: border-box;
+}
+header{
+	background-image: url(fond.png);
+	display:flex;
+	justify-content:space-between;
+}
+.logo{
+    display:inline-flex;
+    width: 5%;
+    color:grey;
+}
+.logo img{
+	width: 100%;
+}
+nav{
+	margin:3em;
+
+}
+nav a{
+	color:grey;
+	text-decoration-line: none;	
+}
+
+/* reste a faire la nav*/
+     /*section background*/
+
+.background{
+	background-image:url(bg_header.png);
+	color: white;
+	text-align: center;
+	padding:10em 0;
+}
+.background h2 p{
+	line-height: 10px;
+}
+.background button{
+	background-color:#ec3c71;
+}
+.nonrose{
+	color:white;
+}
+      /*mettre mon texte au milieu du background*/
+
+   /*couleur des titres*/
+h3,h4,h5{
+	color:#ec3c71;
+}
+h2{
+	color:grey;
+}
+     /*section flex*/
+
+.flex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.flex h3{
+	width: 100%;
+	text-align: center;
+}
