@@ -1,0 +1,159 @@
+*{ 
+   box-sizing: border-box; 
+}
+
+body{
+	background-image:url(bg_body.svg);
+	background-color:#363636;
+	
+}
+      /*police*/
+nav, h2{
+	font-family: 'Roboto Slab', serif;
+}
+h2{
+	font-size: 2em;
+}
+nav{
+	font-size: 1.4em;
+}
+
+         /*Header*/
+
+header{
+	background-color: white;
+	display:flex;
+	justify-content: space-between;
+    background:linear-gradient(120deg,white 50%,#464646 50%);
+
+}
+header nav{
+	background-color:#464646;
+	display: inline-grid;
+}
+header nav a{
+	color:white;
+	text-decoration-line: none;
+}
+
+          /*Main*/
+
+section{
+	display:flex;
+	justify-content:space-between;
+}
+article{
+	margin:1em;
+	background-color: white;
+	padding: 2em;
+}
+section article img{
+	width: 100%;
+}
+.bordure{
+	border-width:1px 1px 0 1px;
+ 	border-style:dotted;
+ 	border-color:black;
+ 	width:100%;
+}
+span{
+	color:#ff9d28;
+}
+h3{
+	color:#ff9d28;
+	text-align: center;
+}
+section article h3{
+	border-width:0 0 1px 0;
+	border-color:#ff9d28;
+	border-style:solid;
+	padding-bottom:1em;
+}
+article a{
+	text-decoration-line: none;
+	color:white;
+}
+.savoir{
+	background-color:#ff9d28;
+	text-align: center;
+}
+
+
+  /*video*/
+
+
+.video{
+	display:flex;
+	flex-wrap: wrap;
+}
+.vid{
+	width: 50%;
+}
+.liens{
+	width: 50%;
+}
+.resaux{
+	font-size: 2em;
+	margin:2em;
+}
+
+      /* footer*/
+
+footer{
+	text-align: center;
+}
+footer nav a{
+	margin:2em;
+	color: white;
+}
+
+
+  /*responsive*/
+
+
+@media screen and (max-width:480px){
+	header nav{
+		display:flex;
+		flex-direction:column;
+		width:auto;
+	}
+	section{
+		display:flex;
+		flex-direction:column;
+		width:auto;
+	}
+	main .video{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+    }
+	footer nav a{
+		display:flex;
+		flex-direction:column;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 760px) {
+
+    header nav{
+		display:flex;
+		flex-direction:column;
+		width:auto;
+	}
+	section{
+		display:flex;
+		flex-direction:column;
+		width:auto;
+	}
+	main .video{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+    }
+	footer nav a{
+		display:flex;
+		flex-direction:column;
+		text-align: center;
+	}
+
+}
