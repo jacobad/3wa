@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 body{
-	max-width:1100px
+	max-width:1100px;
 	background-image: url(fond.png);
 }
 header{
@@ -33,16 +33,11 @@ nav a{
 }
 nav a:hover{
 	color:pink;
-	transform: translateY(2em);
-	transform-style:
+	transform:translateY(2em);
 }
 i .fa, .fas{
 	display:grid;
 }
-
-/* reste a faire la nav*/
-
-
         /*MAIN*/
      /*section background*/
 
@@ -138,15 +133,17 @@ h3:before, h3:after {
 .cercle:hover{
 	animation: jump 2s infinite;
 }
-    /*display flex pas bon*/
-
 .anime{
 	display:flex;
+	flex-wrap: wrap;
     justify-content:space-around;
 }
 .anime h3{
 	width: 100%;
 	text-align: center;
+}
+.anime article{
+	width: 30%;
 }
 
 /*section Float*/
@@ -196,7 +193,7 @@ form{
 }
 input{
 	border-radius:30px;
-	padding-left: 2em;
+	padding-left: 1.5em;
 }
 #nom{
 	background-image:url(bg_form_name.svg); 
