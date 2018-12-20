@@ -32,6 +32,7 @@ header{
 }
 .nav-link{
 	color:white;
+	justify-content:space-between;
 }
 
 
@@ -47,16 +48,8 @@ h3:before, h3:after {
   background:#f1f1f1;   
   content:""
 }
-.longbarre h3:before , h3:after{
-  display:inline-block;
-  vertical-align: middle;
-  height:4px;
-  width:100px;
-  background:#f1f1f1;   
-  content:""
-}
-     
 
+     
      /*section silder*/   
 
 .petit{
@@ -97,6 +90,7 @@ h2{
 }
 h4{
 	text-align: center;
+	color:black;
 }
  
 
@@ -112,17 +106,20 @@ h4{
      padding-top: 3%;
      text-align:center;
      color:grey;
+     vertical-align:text-top;
 }
 .the h4{
 	color:#6e6567;
 }
 .the a{
-	color:white;
 	background-color:#b08f69;
-	padding:5%;
 }
 .prix{
-	color:#6e6567
+	color:#6e6567;
+}
+.produit{
+	padding:4%;
+	color:white;
 }
 
     
@@ -130,11 +127,77 @@ h4{
 
 footer{
 	background-image:url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
 }
+     /*haut du footer nav*/
+
+
+
 .hautfooter{
 	background-color:#869d2c;
 	padding-bottom:3%;
+	padding-top:1%;
 }
-.hautfooter a{
+.hautfooter nav a{
 	color:white;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 68px;
+}
+   
+   /*bas du footer nav*/
+
+
+
+nav a .fas {
+	display: block;
+}
+.container1{
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+.container1 h5{
+	color:white;
+	padding-bottom: 2%;
+}
+.basfooter a{
+	color:beige;
+	text-align: center;
+	display: block;
+}
+.basfooter2 a{
+	color:beige;
+	text-align: center;
+	display: block;
+}
+.basfooter3 a{
+	color:beige;
+	text-align: center;
+	display: block;
+}
+
+   /*small*/
+
+
+
+#licence {
+    background-image:url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+    color:white;
+    text-align: center;
+    padding: 25px;
+    display: block;
+}
+
+#licence img {
+    width: 30px;
+    margin: 0 auto;
+}
+
+#licence a {
+    color: white;
 }
