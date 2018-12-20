@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	width: auto;
+	height: auto;
+	background-color:#f1f1f1;
+}
+/* Header*/
+          /*encart en haut a droite*/
+header{
+	background-image:url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.flou{
+	background-color:rgba(255,255,255,0.15);
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	font-size: 1.2em;
+	color:white;
+}
+.sameline a{
+	color:white;
+	padding-left:65%;
+}
+.sameline img{
+	padding-left:5%;
+}
+.nav-link{
+	color:white;
+}
+
+
+   /*Main*/
+  /*Petit barre entre les titres*/
+
+   
+h3:before, h3:after {
+  display:inline-block;
+  vertical-align: middle;
+  height:4px;
+  width:30px;
+  background:#f1f1f1;   
+  content:""
+}
+.longbarre h3:before , h3:after{
+  display:inline-block;
+  vertical-align: middle;
+  height:4px;
+  width:100px;
+  background:#f1f1f1;   
+  content:""
+}
+     
+
+     /*section silder*/   
+
+.petit{
+	text-align:center;
+	color:grey;
+}
+h3{
+	color:#adbc4f;
+}
+.noel img{
+	width: 100%;
+}
+h2{
+	color:#adbc4f;
+	text-align:center;
+}     
+.silder{
+	text-align: center;
+}
+   
+   /*section flex*/
+
+
+
+
+.photo{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	background-color: white;
+	margin-top:2%;
+    margin-bottom:2%;
+    padding-top:3%;
+} 
+.photo h3{
+	width: 100%;
+	text-align: center;
+}
+h4{
+	text-align: center;
+}
+ 
+
+         /*section the*/
+
+
+
+.the{
+     background-color: white;
+     padding-bottom:8%;
+     margin-top:2%;
+     margin-bottom:3%;
+     padding-top: 3%;
+     text-align:center;
+     color:grey;
+}
+.the h4{
+	color:#6e6567;
+}
+.the a{
+	color:white;
+	background-color:#b08f69;
+	padding:5%;
+}
+.prix{
+	color:#6e6567
+}
+
+    
+     /*section footer*/
+
+footer{
+	background-image:url(bg.jpg);
+}
+.hautfooter{
+	background-color:#869d2c;
+	padding-bottom:3%;
+}
+.hautfooter a{
+	color:white;
+}
